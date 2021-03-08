@@ -7,8 +7,7 @@ body
 
 
 .wrapper
-	background-color: white
-	// background: url('./auto1.jpg')
+	background-color: #332C33
 	height: 95vh
 	width: 95%
 	margin: 0 auto
@@ -20,7 +19,7 @@ body
 
 
 .wrap 
-	background-color: #110100
+	background-color: #332C33
 	// background: url('./auto1.jpg')
 	height: 85vh
 	width: 90%
@@ -32,7 +31,7 @@ body
 
 .content-wrap
 	width: 300px
-	height: 360px
+	height: 380px
 	background-color: #1F1F1F
 	color: white
 	overflow: hidden
@@ -50,16 +49,12 @@ body
 	
 
 .button
-	// width: 400px
-	// height: 400px
 	display: flex
 	align-items: center
 	justify-content: center
 
 
 .form
-	// width: 400px
-	// height: 400px
 	padding: 5%
 
 .form-control
@@ -76,9 +71,28 @@ body
 	text-align: center
 	margin-top: 5px
 
-@media (min-width: 500px)
-	body
-		background-color: red
+.cross-wrap
+	position: relative
+
+.cross
+	position: absolute
+	right: -25px
+	top: -15px	
+
+@media (min-width: 480px)
+	.wrapper
+		background-color: white
+	.wrap
+		background-color: #110100
+	.content-wrap
+		width: 400px	
+
+@media (min-width: 1200px)
+	.wrap
+		// background-color: transparent
+		background: url('./auto1.jpg')
+
+
 
 
 
