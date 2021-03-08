@@ -3,7 +3,7 @@ import './main.sass'
 const content= document.getElementById('content');
 const qqq= document.getElementById('qqq')
 qqq.addEventListener('click', ()=>{
-	content.style.left= -400 + 'px'
+	content.style.left= -100 + '%'
 })
 
 
