@@ -1,96 +1,115 @@
 
-html
-	font-size: 0.8rem
+
+
+
+@import "./bootstrap-4.6.0-dist/css/bootstrap.min.css"
+
+
+
+
 
 body
-	background-color: #332C33
+	background-color: #282828
+	font-family: 'Montserrat', sans-serif
+	font-weight: 500
 
 
-.wrapper
-	background-color: #332C33
-	height: 95vh
-	width: 95%
-	margin: 0 auto
-	margin-top: 5vh
+.project-wrapper
+	width: 100%
+	height: 100vh
 	display: flex
-	align-items: center
 	justify-content: center
-
-
-
-.wrap 
-	background-color: #332C33
-	// background: url('./auto1.jpg')
-	height: 85vh
-	width: 90%
-	margin: 0 auto
-	margin-top: 5vh
-	display: flex
 	align-items: center
-	justify-content: center
 
-.content-wrap
-	width: 300px
-	height: 380px
-	background-color: #1F1F1F
-	color: white
-	overflow: hidden
-	position: absolute
-	border-radius: 5px
-
-.content
-	width: 200%
-	height: 100%
-	position: relative
-	display: grid
-	grid-template-columns: 1fr 1fr
-	transition: all 0.3s
-	left: 0
-	
+.block
+	height: 410px
+	width: 850px
+	font-family: arial
+	text-align: center
+	line-height: 1
 
 .button
-	display: flex
-	align-items: center
-	justify-content: center
+	font-size: 0.9rem	
+	font-weight: 600
+	width: 49%
+	padding-top: 15px
+	padding-bottom: 15px
 
 
-.form
-	padding: 5%
+.button_yellow
+	background-color: #fabf4b
+	color: black
+
+.button_transparent
+	background-color: transparent
+	border-color: #fabf4b
+	color: #fabf4b
+	&:hover
+		color: #f8c96d	
+
+.paragraf
+	font-size: 55px
+	font-weight: 400
+
+.span
+	font-size: 26px
+	font-weight: 100
+	color: #dcd9d9
+	margin-top: 40px
+
+.hr
+	width: 100%
+	border-top: 1px solid #fabf4b
+	margin-top: 40px
+
+.bot
+	margin-top: 85px
+
+.modal-content_custom
+	background-color: #1f1f1f
+
+.modal-footer_custom
+	color: #5d5d5d
+	font-size: 14px
+
+.modal-header_custom
+	position: relative
+	margin-top: 10px
+
+.cross
+	position: relative
+	top: -15px
+	right: -10px
 
 .form-control
 	&::placeholder
-		color: grey
+		color: white	
 
-#select
-	appearance: none
-	background: url(./arrow4.png) no-repeat right 10px center
-	background-size: 15px
-	color: red
+.ok
+	background-color: #fabf4b
+	color: #2c1e00
+	font-size: 18px
+	font-weight: 700
 
-.down
-	text-align: center
-	margin-top: 5px
+.calendar
+	background: url('./calendar.png') no-repeat		
 
-.cross-wrap
-	position: relative
 
-.cross
-	position: absolute
-	right: -25px
-	top: -15px	
+	
 
-@media (min-width: 480px)
-	.wrapper
-		background-color: white
-	.wrap
-		background-color: #110100
-	.content-wrap
-		width: 400px	
 
-@media (min-width: 1200px)
-	.wrap
-		// background-color: transparent
-		background: url('./auto1.jpg')
+
+
+
+
+
+
+
+
+
+
+
+	
 
 
 

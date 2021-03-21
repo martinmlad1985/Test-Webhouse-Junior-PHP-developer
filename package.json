@@ -2,7 +2,7 @@
   "name": "test-webhouse-junior-php-developer",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.html",
+  "main": "docs/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development",
@@ -30,5 +30,7 @@
     "webpack": "^5.24.3",
     "webpack-cli": "^4.5.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
 }
